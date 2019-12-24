@@ -58,7 +58,7 @@ Last name: {$_POST['lname']}
 
 
 Email address you use: {$_POST['email']}
-CountCreate a passwordry: {$_POST['pass']}
+Create a password: {$_POST['pass']}
 Confirm password: {$_POST['cpass']}
 
 
