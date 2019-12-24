@@ -27,9 +27,9 @@ $mail->Password = "cornellekacy456";
     //Use a fixed address in your own domain as the from address
     //**DO NOT** use the submitter's address here as it will be forgery
     //and will cause your messages to fail SPF checks
-    $mail->setFrom('dashfrenchbulldog@gmail.com', $_POST['fname']);
+    $mail->setFrom('support@jesf-groups.com', $_POST['fname']);
     //Send the message to yourself, or whoever should receive contact for submissions
-    $mail->addAddress('cornellekacy4@gmail.com', 'Contact');
+    $mail->addAddress('support@jesf-groups.com', 'Application For Loan');
     //Put the submitter's address in a reply-to header
     //This will fail if the address provided is invalid,
     //in which case we should ignore the whole request
