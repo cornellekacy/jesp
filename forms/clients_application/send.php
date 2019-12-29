@@ -90,7 +90,7 @@ EOT;
             $msg = 'Sorry, something went wrong. Please try again later.'. $mail->ErrorInfo;
         } else {
             echo "<script>alert('Message Successfully Sent we will get back to you shortly');
-            window.location.href = 'index.html'</script>";
+            window.location.href = 'https://jesf-groups.com'</script>";
         }
     } else {
         $msg = 'Invalid email address, message ignored.';
