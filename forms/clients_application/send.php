@@ -89,7 +89,7 @@ EOT;
             //but you shouldn't display errors to users - process the error, log it on your server.
             $msg = 'Sorry, something went wrong. Please try again later.'. $mail->ErrorInfo;
         } else {
-            echo "<script>alert('Message Successfully Sent we will get back to you shortly');
+            echo "<script>alert('Your Application have been received. Thank You!');
             window.location.href = 'https://jesf-groups.com'</script>";
         }
     } else {
